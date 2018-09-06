@@ -1,0 +1,3 @@
+[run]
+source = pyramid_upload_store
+omit = pyramid_upload_store/test*
