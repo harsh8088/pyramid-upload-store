@@ -13,3 +13,5 @@ def main(global_config, **settings):
     config.add_route('upload', '/upload')
     config.scan()
     return config.make_wsgi_app()
+
+
